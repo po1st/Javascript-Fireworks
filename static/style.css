@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative; /* Make body a positioning context */
+}
+
+#fireworkCanvas {
+    position: fixed; /* Position the fireworks canvas fixed */
+    background-color: #000;
+    margin: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
